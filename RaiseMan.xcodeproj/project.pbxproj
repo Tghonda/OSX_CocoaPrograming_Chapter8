@@ -13,6 +13,7 @@
 		73EA5BB01CD99A6200C4A4E2 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EA5BAF1CD99A6200C4A4E2 /* Document.m */; };
 		73EA5BB21CD99A6200C4A4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73EA5BB11CD99A6200C4A4E2 /* Assets.xcassets */; };
 		73EA5BB51CD99A6200C4A4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73EA5BB31CD99A6200C4A4E2 /* Main.storyboard */; };
+		73EA5BBE1CD99AAE00C4A4E2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EA5BBD1CD99AAE00C4A4E2 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		73EA5BB11CD99A6200C4A4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73EA5BB41CD99A6200C4A4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73EA5BB61CD99A6200C4A4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73EA5BBC1CD99AAE00C4A4E2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		73EA5BBD1CD99AAE00C4A4E2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				73EA5BAC1CD99A6200C4A4E2 /* ViewController.m */,
 				73EA5BAE1CD99A6200C4A4E2 /* Document.h */,
 				73EA5BAF1CD99A6200C4A4E2 /* Document.m */,
+				73EA5BBC1CD99AAE00C4A4E2 /* Person.h */,
+				73EA5BBD1CD99AAE00C4A4E2 /* Person.m */,
 				73EA5BB11CD99A6200C4A4E2 /* Assets.xcassets */,
 				73EA5BB31CD99A6200C4A4E2 /* Main.storyboard */,
 				73EA5BB61CD99A6200C4A4E2 /* Info.plist */,
@@ -152,6 +157,7 @@
 			files = (
 				73EA5BB01CD99A6200C4A4E2 /* Document.m in Sources */,
 				73EA5BAD1CD99A6200C4A4E2 /* ViewController.m in Sources */,
+				73EA5BBE1CD99AAE00C4A4E2 /* Person.m in Sources */,
 				73EA5BAA1CD99A6200C4A4E2 /* main.m in Sources */,
 				73EA5BA71CD99A6200C4A4E2 /* AppDelegate.m in Sources */,
 			);

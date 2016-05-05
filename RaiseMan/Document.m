@@ -9,7 +9,9 @@
 #import "Document.h"
 
 @interface Document ()
-
+{
+	NSMutableArray *_employees;
+}
 @end
 
 @implementation Document
@@ -18,6 +20,7 @@
     self = [super init];
     if (self) {
 		// Add your subclass-specific initialization here.
+		_employees = [[NSMutableArray alloc] init];
     }
     return self;
 }
@@ -46,4 +49,9 @@
 	return YES;
 }
 
+- (void)setEmployees:(NSMutableArray*)a {
+	if (a == _employees)
+		return;
+	_employees = a;
+}
 @end

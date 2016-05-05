@@ -9,6 +9,11 @@
 #import "ViewController.h"
 
 @implementation ViewController
+#if 0
+{
+	IBOutlet NSArrayController *arrayContoller;
+}
+#endif
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
